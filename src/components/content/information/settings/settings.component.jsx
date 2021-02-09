@@ -14,6 +14,22 @@ export const Settings = () => {
 
         <Styled.Button>Rename</Styled.Button>
       </Styled.RenameBlock>
+
+      <Styled.Text>Social preview</Styled.Text>
+
+      <Styled.SlimText>
+        Upload an image to customize your repository’s social media preview.
+      </Styled.SlimText>
+
+      <Styled.SlimText>
+        Images should be at least 640×320px (1280×640px for best display).
+      </Styled.SlimText>
+
+      <Styled.Link>Download template</Styled.Link>
+
+      <Styled.Picture>
+        <Styled.EditButton>Edit</Styled.EditButton>
+      </Styled.Picture>
     </>
   )
 }

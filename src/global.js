@@ -13,7 +13,8 @@ export const globals = css`
     h1,
     h2,
     ul,
-    p {
+    p,
+    figure {
       padding: 0;
       margin: 0;
     }
